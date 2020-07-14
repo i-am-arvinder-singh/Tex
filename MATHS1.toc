@@ -1,0 +1,15 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{3}%
+\contentsline {section}{\numberline {2}Theory and Properties}{5}%
+\contentsline {subsection}{\numberline {2.1}Probability Distribution}{6}%
+\contentsline {subsection}{\numberline {2.2}Mean}{7}%
+\contentsline {subsection}{\numberline {2.3}Variance}{7}%
+\contentsline {subsection}{\numberline {2.4}Auto-correlation function}{8}%
+\contentsline {subsection}{\numberline {2.5}Auto-covariance function}{9}%
+\contentsline {section}{\numberline {3}Proving Random Walk is a Markov Chain}{9}%
+\contentsline {section}{\numberline {4}One-step transition probability}{9}%
+\contentsline {section}{\numberline {5}Applications}{10}%
+\contentsline {section}{\numberline {6}Gambler's Ruin Problem}{10}%
+\contentsline {subsection}{\numberline {6.1}Example}{11}%
+\contentsline {subsection}{\numberline {6.2}Probability of Ruin and Win}{11}%
+\contentsline {section}{\numberline {7}Conclusion}{14}%
