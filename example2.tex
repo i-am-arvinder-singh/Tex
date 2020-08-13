@@ -1,0 +1,33 @@
+\documentclass[12pt]{standalone}% 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[linguistics]{forest}
+%\usepackage{forest}
+\forestset{.style={for tree={l=1em, l sep=1em, s sep=1em}}}
+\begin{document}
+	\begin{forest}
+		[\textsc{Dec-To-Bin}$(2421_{10})$
+			[\textsc{Bin-Pow-Ten}$(2)$ \\ {$n=2$}
+				[\textsc{Bin-Pow-Ten}$(1)$\\{$a=1010_2$} ]
+				[\textsc{Fast-Multiply}(a{,}a)\\{$a=1010_2$}
+				]
+			]
+			[\textsc{Dec-To-Bin}$(24_{10})$
+					[\textsc{Bin-Pow-Ten}$(1)$\\{$a=1010_2$}
+					]
+					[\textsc{Dec-To-Bin}$(2_{10})$
+					]
+					[\textsc{Dec-To-Bin}$(4_{10})$
+					]
+			]
+			[\textsc{Dec-To-Bin}$(21_{10})$
+				[\textsc{Bin-Pow-Ten}$(1)$\\{$a=1010_2$}
+				]
+				[\textsc{Dec-To-Bin}$(2_{10})$
+				]
+				[\textsc{Dec-To-Bin}$(1_{10})$
+				]
+			]
+		]
+	\end{forest}
+\end{document}
